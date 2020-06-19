@@ -7,7 +7,8 @@ int main() {
     ComplexNumber<int> Z1 = {10,15};
     ComplexNumber<int> Z2(20,30);
 
-    std::cout << "Die 1. komplexe Zahl besteht aus dem Realteil re = " << Z1.getre() << " und dem Imaginärteil im = " << Z1.getim() << std::endl;
+    std::cout << "Die 1. komplexe Zahl besteht aus dem Realteil re = " << Z1.getre() << " und dem Imaginärteil im = "
+              << Z1.getim() << std::endl;
     std::cout << "2. komplexe Zahl: re = " << Z2.getre() << " im = " << Z2.getim() << std::endl;
 
 
